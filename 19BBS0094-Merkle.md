@@ -8,11 +8,11 @@ In blockchain, there will be separate blocks. All of these blocks are connected 
 For example, suppose there is one block containing 4 transactions. Each action has a unique hash key. So in all of this, we need to find one hash key for that block. Here first calculate the Hash for each function namely, Hash1, HAsh2, Hash3, Hash4 performance1, 2, 3, 4 respectively. Each of them is accelerated again like a pair of two horses. It means Hashing1 for Hash1 and Hash2, which leads to Hash12, then Hash 3 and Hash4, which leads to Hash34. Two hashes (Hash12 and Hash34) are then accelerated again to produce a Root Hash or Merkle Root. That is the root of the Merkle root.
 As it is a binary tree it should have 2 leaf nodes in each node of each parent. If there is a single leaf node repeat the same hash key and make 2 leaf nodes.
 
-![image info](https://en.bitcoinwiki.org/upload/en/images/thumb/9/95/Hash_Tree.svg/1000px-Hash_Tree.svg.png)
+![image info](https://miro.medium.com/max/447/1*1e-wyMbvf8-u7Le1LUxTBA.png)
 
 Merkle Root is stored in the block head. The title of the block is the bitcoin block section that is accelerated throughout the mining process. At Merkle Tree, it contains the previous block hash, Nonce, and Root Hash for all activity on the current block. As a result, the combination of Merkle root on the block head makes the work more secure. Because this Root Hash contains hashes of everything that is done inside the block.
 
-![image info](https://i.imgur.com/mDMeFZR.png)
+![image info](https://www.simplilearn.com/ice9/free_resources_article_thumb/Merkle_Tree_In_Blockchain_5.png)
 
 ## Algorithm
 
